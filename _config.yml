@@ -1,0 +1,18 @@
+# Site settings
+title: StatThis! - musings of a data scientist
+email: stats@statthis.com
+description: > # this means to ignore newlines until "baseurl:"
+  StatThis is produced by Steve Wells at great expense and dedication.
+  He is solely to be blamed for mistakes, while those who influenced
+  those ideas should be pittied for his foolish interepretations. If 
+  in the unusual event you find something useful, please be adviced that
+  this was purely unintentional and will probably be rectified before it
+  is noticed.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.statthis.com" # the base hostname & protocol for your site
+twitter_username: vegastwit
+github_username:  yxes
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
