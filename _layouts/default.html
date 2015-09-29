@@ -5,10 +5,15 @@
 
   <body class="hold-transition skin-blue sidebar-mini">
    <div class="wrapper">
-      {% include header.html %}
+	{% include header.html %}
+
+	{% include menu.html %}
 
         {{ content }}
 
+	{% include footer.html %}
+
+	{% include control_sidebar.html %}
    </div>
 
     <!-- REQUIRED JS SCRIPTS -->
